@@ -1,0 +1,58 @@
+body {
+    background-size: 100%;
+    color: white;
+    font-family: Verdana, serif;
+}
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, serif
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: white;
+}
+.topnav a.active {
+    background-color: #ff0045;
+    color: black;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+p.outline {
+    outline-style: dashed;
+    padding: 8px;
+    width: 80%;
+    font-size: 25px;
+    margin: 0 auto;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: darkgrey;
+}
+a:hover {
+    color: red;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
