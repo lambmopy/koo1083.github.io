@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Favorites</title>
+    <link rel="stylesheet" href="favorites.css">
+</head>
+<body>
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a class="active" href="favorites.html">Favorites</a>
+    <a href="school.html">School</a>
+    <a href="homeproject.html">Mini Projects</a>
+</div>
+<h1>Favorites</h1>
+<p>
+    I have a lot of favorite things in many different categories.
+    However, it's really hard for me to choose one favorite thing for each category.
+    <br>
+    Click on the arrow to find out what kind of different things I like :)
+</p>
+<br><br>
+<!-- lines are from codepen.io-->
+<ul class="slides">
+    <input type="radio" name="radio-btn" id="img-1" checked />
+    <li class="slide-container">
+        <div class="slide">
+            <!-- lines are from css-tricks.com, and image is from https://www.seriouseats.com/-->
+                <img src="image/fries.jpg">
+                    French Fries are my favorite food. If you haven't tried it yet, you should dip it in vanilla ice cream, and your life will never be the same again.
+        </div>
+        <div class="nav">
+            <label for="img-2" class="next">&#x203a;</label>
+        </div>
+    </li>
+    <input type="radio" name="radio-btn" id="img-2" />
+    <li class="slide-container">
+        <div class="slide">
+            <!-- image is from https://www.yrsnews.com/-->
+            <img src="image/friends.jpg" />
+                    My favorite netflix show is friends. My favorite character is Chandler, because he's the funniest character in the show.
+        </div>
+        <div class="nav">
+            <label for="img-1" class="prev">&#x2039;</label>
+            <label for="img-3" class="next">&#x203a;</label>
+        </div>
+    </li>
+    <input type="radio" name="radio-btn" id="img-3" />
+    <li class="slide-container">
+        <div class="slide">
+            <!-- image is from amazon.com-->
+            <img src="image/thor.jpg" />
+            It was hard choosing between Iron Man or Thor, but remembering how much I loved the Ragnarok movie, I would have to pick Thor for my favorite Marvel hero.
+        </div>
+        <div class="nav">
+            <label for="img-2" class="prev">&#x2039;</label>
+            <label for="img-4" class="next">&#x203a;</label>
+        </div>
+    </li>
+    <input type="radio" name="radio-btn" id="img-4" />
+    <li class="slide-container">
+        <div class="slide">
+            <!-- image is from http://www.baskinrobbins.ca/-->
+            <img src="image/icecream.png" />
+            My favorite ice cream flavor is pistachio almond, although it was difficult having to choose between butter pecan and pistachio.
+        </div>
+        <div class="nav">
+            <label for="img-3" class="prev">&#x2039;</label>
+            <label for="img-5" class="next">&#x203a;</label>
+        </div>
+    </li>
+    <input type="radio" name="radio-btn" id="img-5" />
+    <li class="slide-container">
+        <div class="slide">
+            <!-- img is from lemonhead.com-->
+            <img src="image/lemon.png" />
+            My favorite candy is Lemonheads, but I gotta admit, once you finish one whole box, your tongue becomes numb from the sourness.
+        </div>
+        <div class="nav">
+            <label for="img-4" class="prev">&#x2039;</label>
+        </div>
+    </li>
+    <li class="nav-dots">
+        <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+        <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+        <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+        <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+        <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+    </li>
+</ul>
+</body>
+</html>

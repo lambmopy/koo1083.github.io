@@ -1,0 +1,86 @@
+body {
+    font-family: "Century Gothic", sans-serif;
+}
+h1 {
+    color: blue;
+}
+h1.orange{
+    color: orange;
+    text-align: center;
+}
+h2.white, p {
+    color: white;
+    text-align: center;
+}
+ul {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+p.black {
+    color: black;
+}
+p {
+    font-size: 16px
+}
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, serif
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: darkorange;
+    color: black;
+}
+/* table */
+table, th, td {
+    font-size: 18px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+table#t2 {
+    margin-left:auto;
+    margin-right:auto;
+}
+/* lines are from w2schools.com*/
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 5px;
+}
+
+/* Control the left side */
+.left {
+    left: 0;
+    background-color: darkblue;
+}
+
+/* Control the right side */
+.right {
+    text-align: center;
+    right: 0;
+    background-color: darkorange;
+}
+

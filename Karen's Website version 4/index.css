@@ -1,0 +1,45 @@
+body{
+    background-color:#e7c8b3;
+    font-family: verdana;
+}
+h1 {
+    font-size: 30px;
+}
+p {
+    font-size: 18px;
+}
+/*The Next 23 lines are from w3schools.com*/
+.topnav {
+    background-color: maroon;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: tan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+/*The next 6 lines are from w3schools.com*/
+table, th, td {
+    font-size: 18px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+table#t1 {
+    width: 50%
+}
