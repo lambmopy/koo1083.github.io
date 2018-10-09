@@ -1,57 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Mini-Projects</title>
-    <link rel="stylesheet" href="homeproject.css">
-    <script src="myScript.js"></script>
+   <meta charset="UTF-8">
+   <title>Mini-Projects</title>
+   <link rel="stylesheet" href="homeproject.css">
+   <script src="myScript.js"></script>
 </head>
 <body>
 <div class="topnav">
-    <a href="index.html">Home</a>
-    <a href="hobbies.html">Hobbies</a>
-    <a href="favorites.html">Favorites</a>
-    <a href="school.html">School</a>
-    <a class="active" href="homeproject.html">Mini Projects</a>
+   <a href="index.html">Home</a>
+   <a href="hobbies.html">Hobbies</a>
+   <a href="favorites.html">Favorites</a>
+   <a href="school.html">School</a>
+   <a class="active" href="homeproject.html">Mini Projects</a>
 </div>
 <img id="weather" src="" height="75">
 <!--further organize content with regard to javascript by creating 'forms' on an HTML doc-->
 <form name="project1">
-    <h4>Temperature Bug!</h4>
-    <br>
-    Type in a temperature:
-    <input type="text" name="input1">
-    <br><br>
-    Season:
-    <input type="text" name="result" readonly="true" style="border-style: none" size="45">
-    <br>
-    <button type="button" onclick="document.project1.result.value=temperatureBug()">Convert!</button>
+   <h4>Temperature Bug!</h4>
+   <br>
+   Type in a temperature:
+   <input type="text" name="input1">
+   <br><br>
+   Season:
+   <input type="text" name="result" readonly="true" style="border-style: none" size="45">
+   <br>
+   <button type="button" onclick="document.project1.result.value=temperatureBug()">Convert!</button>
 </form>
 <br><br>
 <form name="project2">
-    <h4>Calorie Counter</h4>
-    <br>
-    Type in one of the following activities: Bowling, Swimming, Running, Tennis, Jumping rope, or Basketball.
-    <br>
-    <input type="text" name="input1">
-    <br><br>
-    Type in the time (in minutes) spent on the activity:
-    <input type="text" name="input2">
-    <br><br>
-    <button type="button" onclick="document.project2.result.value=calorieCounter()">COUNT!</button>
-    You burned <input type="text" name="result" readonly="true" style="border-style: none" size="8"> calories.
+   <h4>Calorie Counter</h4>
+   <br>
+   <select id="myList">
+       <option value="bowling">Bowling</option>
+       <option value="running">Running</option>
+       <option value="swimming">Swimming</option>
+       <option value="basketball">Basketball</option>
+       <option value="jumping rope">Jumping Rope</option>
+       <option value="tennis">Tennis</option>
+   </select>
+   <button type="button" onclick="document.project2.activity.value=dropDown()">CLICK!</button>
+   <input type="text" name="activity" readonly="true">
+   <br>
+   Type in the time (in minutes) spent on the activity:
+   <input type="text" name="input1">
+   <br><br>
+   <button type="button" onclick="document.project2.calories.value=calorieCounter()">CONVERT!</button> You burned <input type="text" name="calories"> calories
 </form>
 <br><br>
+
 <form name="project3">
-    <h4>Grade conversion</h4>
-    <br>
-    Type in your score to find out your grade:
-    <br>
-    <input name="input1" type="text">
-    <br><br>
-    Your grade is: <input type="text" name="result" readonly="true" style="border-style: none">
-    <br><br>
-    <button type="button" onclick="document.project3.result.value=assignGrade()">assignGrade!</button>
+   <h4>Grade conversion</h4>
+   <br>
+   Type in your score to find out your grade:
+   <br>
+   <input name="input1" type="text">
+   <br><br>
+   Your grade is: <input type="text" name="result" readonly="true" style="border-style: none">
+   <br><br>
+   <button type="button" onclick="document.project3.result.value=assignGrade()">assignGrade!</button>
 </form>
 </body>
 </html>
