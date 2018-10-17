@@ -1,0 +1,56 @@
+/*The Next 23 lines are from w3schools.com*/
+.topnav {
+    background-color: maroon;
+    overflow: hidden;
+    font-family: Verdana;
+}
+.topnav a {
+    float: left;
+    color: tan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+
+
+body {
+    background-image: linear-gradient(lightblue,  #FFE9E6);
+    font-size: 25px;
+    font-family: verdana;
+    color: black;
+}
+
+input {
+    background-color: lightgoldenrodyellow;
+    font-size: 25px;
+    font-family: Verdana;
+
+}
+
+select.myList {
+    background-color: paleturquoise;
+    font-family: verdana;
+}
+
+button {
+    font-size: 25px;
+    font-family: Verdana;
+    color: hotpink;
+}
+
+h4 {
+    font-size: 30px;
+}
+

@@ -22,19 +22,3 @@
     background-color: black;
     color: white;
 }
-
-body {
-    background-image: linear-gradient(lightblue,  #FFE9E6);
-}
-
-input {
-    background-color: lightgoldenrodyellow;
-}
-
-select.myList {
-    background-color: paleturquoise;
-}
-
-button {
-    font-size: 15px;
-}

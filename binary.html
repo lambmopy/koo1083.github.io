@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Binary</title>
+    <link rel="stylesheet" href="binary.css">
+    <script src="binary.js"></script>
+</head>
+<body>
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="favorites.html">Favorites</a>
+    <a href="school.html">School</a>
+    <a href="homeproject.html">Mini Projects</a>
+    <a class="active" href="binary.html">JavaScript Binary</a>
+</div>
+</body>
+<form name="project4">
+    <h4>Number Base Converter</h4>
+    Type in the number you want to convert: <input type="text" name="num">
+    <br>
+    Type in the base of the number: <input type="text" name="base1">
+    <br>
+    Type in the base you want the number to be converted to: <input type="text" name="base2">
+    <br>
+    <br>
+    <button type="button" onclick="document.project4.result.value=xToY()">CONVERT!</button>
+    <input type="text" name="result" readonly="true" placeholder="waiting for results..." size="45">
+</form>
+</html>
