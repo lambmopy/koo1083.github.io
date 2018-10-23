@@ -48,6 +48,8 @@ button {
     font-size: 25px;
     font-family: Verdana;
     color: hotpink;
+    background-color: white;
+    border: dotted;
 }
 
 h4 {
