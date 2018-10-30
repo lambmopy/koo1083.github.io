@@ -1,0 +1,18 @@
+button
+{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+input
+{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+body
+{
+    background-color: lightblue;
+    text-align: center;
+}
