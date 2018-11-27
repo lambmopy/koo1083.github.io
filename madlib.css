@@ -1,0 +1,52 @@
+/*The Next 23 lines are from w3schools.com*/
+.topnav {
+    background-color: lightyellow;
+    overflow: hidden;
+    font-family: Calibri, sans-serif;
+}
+.topnav a {
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+body {
+    background-color: lightyellow;
+    font-family: Calibri,sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 25px;
+    color: lightskyblue;
+}
+p {
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+button {
+    border: none;
+    background-color: #FFFFFF;
+    color: lightskyblue;
+    font-family: Calibri, sans-serif;
+    font-size: 30px;
+}

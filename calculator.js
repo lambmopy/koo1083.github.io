@@ -1,20 +1,3 @@
-/*
-Gameplan
-
-HTML:
-(*) Calculator window for operations to be shown along with result
-() Number buttons for the calculator
-() Operator buttons (+, -, *, etc.)
-() '=' button
-() Reset or Clear button
-() optional: backspace button??
-
-Javascript:
-() function that captures what typed in the calcWindow
-() Separate functions that add numbers, subtract numbers, etc.
- */
-
-
 function calculate(expression)
 {
     var num = expression;
