@@ -10,17 +10,17 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: Verdana, serif
+    font-family: Verdana, serif;
 }
 
 .topnav a:hover {
-    background-color: lightblue;
+    background-color: #FFE9E6;
     color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: lightblue;
+    background-color: #FFE9E6;
     color: black;
 }
 
@@ -28,9 +28,25 @@ body
 {
     font-family : Calibri light, sans-serif;
     background-color: #FFE9E6;
+    font-size: 18px;
 }
 input
 {
     background-color: #FFE9E6;
     border-color: black;
+}
+
+button
+{
+    background-color: white;
+    border-color: black;
+    font-family: Calibri light, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+h4
+{
+    font-family: Calibri light, sans-serif;
+    font-size: 20px;
 }
