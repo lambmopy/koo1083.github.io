@@ -1,0 +1,36 @@
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, serif
+}
+
+.topnav a:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: lightblue;
+    color: black;
+}
+
+body
+{
+    font-family : Calibri light, sans-serif;
+    background-color: #FFE9E6;
+}
+input
+{
+    background-color: #FFE9E6;
+    border-color: black;
+}

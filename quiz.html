@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QUIZ</title>
+    <script src="quiz.js"></script>
+    <link rel="stylesheet" href="quiz.css">
+ </head>
+<body>
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="favorites.html">Favorites</a>
+    <a href="school.html">School</a>
+    <a href="homeproject.html">Mini Projects</a>
+    <a href="binary.html">JavaScript Binary</a>
+    <a href="calculator.html">Calculator</a>
+    <a href="madlib.html">Interactive Mad Lib</a>
+    <a class="active" href="quiz.html">Quiz</a>
+</div>
+<form name="quiz">
+    <h1>RANDOM TRIVIA</h1>
+
+    <img src="image/Snorlax.png" height="300" width="350"/>
+    <br><br>
+    Question 1: What is the name of this character?
+    <Br>
+    <input type="text" name="a1">
+    <br><br>
+    Question 2: What does PDF stand for?
+    <br>
+    <input type="radio" name="a2" value="Portable Document Form">Portable Document Form<br>
+    <input type="radio" name="a2" value="Portable Document Folder">Portable Document Folder<br>
+    <input type="radio" name="a2" value="Portable Document File">Portable Document File<br>
+    <input type="radio" name="a2" value="Portable Document Format">Portable Document Format<br>
+    <br><br>
+    Question 3: What are the sports provided to students in Hoffman Estates High School? (More than one answer)
+    <Br>
+    <input type="checkbox" name="a3A" value="Swimming">Swimming<br>
+    <input type="checkbox" name="a3B" value="Track and Field">Track and Field<br>
+    <input type="checkbox" name="a3C" value="Skateboarding">Skateboarding<br>
+    <input type="checkbox" name="a3D" value="Foosball">Foosball<br>
+    <input type="checkbox" name="a3E" value="Baseball">Baseball<br>
+    <br><br>
+    <img src="image/Black_Panther.png" height="392" width="214"/>
+    <br><br>
+    Question 4: What is the name of this superhero? <br>
+    <input type="text" name="a4">
+    <br><br>
+    Question 5: What is the capital of Canada?
+    <Br>
+    <input type="radio" name="a5" value="Toronto">Toronto<br>
+    <input type="radio" name="a5" value="Ontario">Ontario<br>
+    <input type="radio" name="a5" value="Ottawa">Ottawa<br>
+    <input type="radio" name="a5" value="Montreal">Montreal<br>
+    <Br><br>
+    Question 6: Check all the foods that originated from America. (More than one answer)
+    <br>
+    <input type="checkbox" name="a6A" value="Tater tots">Tater tots<br>
+    <input type="checkbox" name="a6B" value="Pizza">Pizza<br>
+    <input type="checkbox" name="a6C" value="Macaroni and Cheese">Macaroni and Cheese<br>
+    <input type="checkbox" name="a6D" value="Doughnuts">Doughnuts<br>
+    <input type="checkbox" name="a6E" value="Buffalo Wings">Buffalo wings<br>
+    <br><br>
+
+
+    <button type="button" onclick="checkAnswers()">ANSWER!</button>
+    <bR>
+    <h4>SCORE: </h4>
+    <p id="score"></p>
+    <h4>FEEDBACK!!</h4>
+    <p id="answer"></p>
+
+
+</form>
+</body>
+</html>
