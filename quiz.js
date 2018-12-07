@@ -22,14 +22,14 @@ function checkAnswers()
     {
         feedback.push("Incorrect : Question 2 was Portable Document Format");
     }
-    if (document.quiz.a3A.checked === true && document.quiz.a3B.checked === true && document.quiz.a3C === false && document.quiz.a3D === false && document.quiz.a3E === true)
+    if (document.quiz.a3A.checked === true && document.quiz.a3B.checked === true && document.quiz.a3C.checked === false && document.quiz.a3D.checked === false && document.quiz.a3E.checked === true)
     {
         score++;
         feedback.push("Question 3 is correct!");
     }
     else
     {
-        feedback.push("Incorrect : Question 2 was Swimming, Track and Field and Baseball");
+        feedback.push("Incorrect : Question 3 was Swimming, Track and Field and Baseball");
     }
     if (document.quiz.a4.value.toLowerCase() === 'black panther')
     {
