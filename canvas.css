@@ -2,3 +2,29 @@
 {
     border: 3px solid #000000;
 }
+
+/*The Next 23 lines are from w3schools.com*/
+.topnav {
+    background-color: maroon;
+    overflow: hidden;
+    font-family: Verdana, serif;
+}
+.topnav a {
+    float: left;
+    color: tan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
